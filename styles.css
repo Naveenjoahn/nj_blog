@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d74f0b;
+    color: #080808;
+}
+
+header {
+    background-color: #141412;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.blog-post {
+    background-color: #fff;
+    border: 5px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 05px 10px rgb(7, 6, 10);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.blog-post img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.blog-post p {
+    font-size: 1rem;
+    color: #090909;
+}
+
+/* Video Section Styles */
+.video {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.674);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.video h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.video p {
+    font-size: 1rem;
+    color: #080808;
+}
+
+.video-container {
+    max-width: 100%;
+    position: relative;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin: 50 auto;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.851);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.contact p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    margin-bottom: 0.5rem;
+}
+
+.contact a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
